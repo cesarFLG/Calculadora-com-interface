@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calcoringinterface.CalculadoraController">
+
+    <children>
+        <Button fx:id="calcularButton" layoutX="271.0" layoutY="340.0" mnemonicParsing="false" text="Calcular" />
+        <Button fx:id="botaoTabela" layoutX="450.0" layoutY="340.0" mnemonicParsing="false" text="📋 Ver Tabela" />
+        <TextField fx:id="campoMaior" layoutX="12.0" layoutY="200.0" />
+        <TextField fx:id="campoMenor" layoutX="14.0" layoutY="279.0" />
+        <Label layoutX="29.0" layoutY="177.0" text="Digite a Medida Maior" />
+        <Label layoutX="27.0" layoutY="255.0" text="Digite a Medida Menor" />
+        <Ellipse fill="#f8fafc" layoutX="371.0" layoutY="232.0" radiusX="100.0" radiusY="32.0" smooth="false" stroke="BLACK" strokeType="INSIDE" />
+        <Line endX="100.0" layoutX="371.0" layoutY="180.0" startX="-100.0" />
+        <Line endX="100.0" layoutX="171.0" layoutY="168.0" startX="100.0" startY="24.0" />
+        <Line endX="100.0" layoutX="371.0" layoutY="168.0" startX="100.0" startY="24.0" />
+        <Line endX="100.0" endY="-21.0" layoutX="380.0" layoutY="223.0" startX="100.0" startY="39.0" />
+        <Line endX="21.0" layoutX="471.0" layoutY="263.0" startX="-5.0" />
+        <Line endX="21.0" layoutX="471.0" layoutY="201.0" startX="-5.0" />
+        <Label layoutX="334.0" layoutY="160.0" text="Medida Maior" />
+        <Label layoutX="493.0" layoutY="224.0" text="Medida Menor" />
+        <ChoiceBox fx:id="Diametro" layoutX="13.0" layoutY="111.0" prefWidth="150.0" />
+        <TextArea fx:id="areaResultado" layoutX="14.0" layoutY="370.0" prefHeight="250.0" prefWidth="570.0" />
+
+
+    </children>
+</Pane>
